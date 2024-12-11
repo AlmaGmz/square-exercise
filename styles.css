@@ -1,0 +1,51 @@
+.padre {
+	width: 500px;
+	height: 500px;
+	display: inline-block;
+	border-style: dashed;
+	font-size: 0;
+}
+
+.padre_hijo1 {
+	padding: 10px;
+	display: inline-block;
+	width: 230px;
+	height: 210px;
+	background-image: url(contacuentos3.jpg);
+	border-top: 10px solid gray;
+	border-bottom: 10px solid gray;
+}
+.padre_hijo2 {
+	padding: 10px;
+	display: inline-block;
+	width: 230px;
+	height: 210px;
+	background-color: red;
+	border-top: 10px solid gray;
+	border-bottom: 10px solid gray;
+}
+.padre_hijo3 {
+	padding: 10px;
+	display: inline-block;
+	width: 210px;
+	height: 230px;
+	background-color: salmon;
+	border-left: 10px solid cyan;
+	border-right: 10px solid cyan;
+}
+.padre_hijo4 {
+	padding: 10px;
+	display: inline-block;
+	width: 210px;
+	height: 230px;
+	background-color: green;
+	border-left: 10px solid cyan;
+	border-right: 10px solid cyan;
+}
+
+p {
+	font-weight: bolder;
+	font-size: x-large;
+	color: green;
+	font-style: italic;
+}
